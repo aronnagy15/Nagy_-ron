@@ -9,9 +9,15 @@
 
 .card{
     justify-content: center;
+    margin: 15px;
+    border: solid gray 2px;
 }
 
 .card-img-top{
     max-height: 200px;
     max-width: 200px;
+}
+
+.row{
+    justify-content: center;
 }
