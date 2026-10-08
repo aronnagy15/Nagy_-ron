@@ -2,3 +2,16 @@
     height: 100px;
     width: 120px;
 }
+
+.carousel-item{
+    max-height: 700px;
+}
+
+.card{
+    justify-content: center;
+}
+
+.card-img-top{
+    max-height: 200px;
+    max-width: 200px;
+}
