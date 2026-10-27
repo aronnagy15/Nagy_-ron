@@ -1,34 +1,40 @@
-.logo{
+.logo {
     height: 100px;
     width: 120px;
 }
 
-body{
+body {
     background-image: url(../pics/hatter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.carousel-item{
+.carousel-item {
     max-height: 700px;
 }
 
-.card{
+.carousel-caption {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+.card {
     justify-content: center;
     margin: 15px;
     border: solid gray 2px;
 }
 
-.card-img-top{
+.card-img-top {
     max-height: 200px;
     max-width: 200px;
 }
 
-.row{
+.row {
     justify-content: center;
 }
 
-.container{
+.container {
     background-color: #f2f2f2;
     border: gray solid 1px;
     border-radius: 10px;
@@ -36,32 +42,49 @@ body{
     margin-top: 30px;
 }
 
-.carousel{
+.carousel {
     padding: 5px;
-    
 }
 
-table, th, td {
-  border: 1px solid #e6e6e6;
-  border-collapse: collapse;
-  padding: 5px;
-  border-bottom: 1px solid gray;
+table,
+th,
+td {
+    border: 1px solid #e6e6e6;
+    border-collapse: collapse;
+    padding: 5px;
+    border-bottom: 1px solid gray;
 }
 
-th, td {
-  background-color: #e6e6e6;
-  text-align: center;
+th,
+td {
+    background-color: #e6e6e6;
+    text-align: center;
 }
 
-#europa{
+#europa {
     background-color: #68c1fd;
 }
 
-#lefele{
+#lefele {
     background-color: #e60000;
 }
 
-#kicsikep{
+#kicsikep {
     width: 30px;
     height: 30px;
+}
+
+.naptar {
+    margin-top: 140px;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+#szponzor {
+    height: 70px;
+    padding: 15px;
 }
