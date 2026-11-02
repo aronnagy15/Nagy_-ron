@@ -9,6 +9,11 @@ body {
     background-size: cover;
 }
 
+.navbar {
+    height: 70px;
+    padding: 10px;
+}
+
 .carousel-item {
     max-height: 700px;
 }
@@ -43,6 +48,20 @@ body {
     border-radius: 10px;
     padding: 20px;
     margin-top: 30px;
+}
+
+.container2 {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-variant: small-caps;
+    border-radius: 5px;
+    background-color: #668cff;
+}
+
+.container2 a {
+    text-decoration: none;
+    color: white;
 }
 
 .carousel {
